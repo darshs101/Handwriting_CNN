@@ -45,8 +45,7 @@ model.summary()
 # Build the classification layer
 """
 The next step is to feed the last output tensor (of shape (3, 3, 64)) into a
-densely connected classifier network like those you’re already familiar with
-: a stack of Dense layers. These classifiers process vectors, which are 1D,
+densely connected classifier network. These classifiers process vectors, which are 1D,
 whereas the current output is a 3D tensor. First we flatten the 3D
 outputs to 1D, and then add a few Dense layers on top
 """
